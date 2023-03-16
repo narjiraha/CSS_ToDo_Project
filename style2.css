@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(75, 71, 71);
+}
+/* Set background properties */
+.background {
+    position: fixed;
+    /* Fix position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Set width and height to cover entire viewport */
+    height: 100%;
+    opacity: 0.3;
+    /* Set opacity to make background slightly transparent */
+    z-index: -1;
+    /* Set z-index to -1 to move it behind other elements */
+}
+
+/* Set iframe properties */
+iframe {
+    width: 100%;
+    /* Set width and height to fill parent container */
+    height: 100%;
+    border: none;
+    /* Remove border */
+}
+
+/* Set card properties */
+.card {
+    position: absolute;
+    /* Position element absolutely */
+    top: 50%;
+    /* Position from top */
+    left: 50%;
+    /* Position from left */
+    transform: translate(-50%, -50%);
+    /* Center the element */
+    background-color: white;
+    /* Set background color */
+    padding: 20px;
+    /* Add padding */
+    border-radius: 10px;
+    /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    /* Add box shadow */
+    width: 300px;
+    /* set the width to 300 pixels */
+    height: 150px;
+    /* set the height to 200 pixels */
+}
+
+.heading3 {
+    margin-top: 10px;
+}
+
+
+.inputbox {
+    margin-top: 10px;
+    width: 250px;
+}
+
+/* Set button properties */
+button {
+    background-color: blue;
+    /* Set background color to blue */
+    color: white;
+    /* Set text color to white */
+    padding: 10px;
+    /* Add padding */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    width: 150px;
+    cursor: pointer;
+    /* Change cursor to pointer */
+    margin: 0 auto;
+    /* Center the button horizontally */
+    margin-left: 160px;
+    margin-top: 20px;
+    display: block;
+    /* Set display property to block */
+}
+
+/* Set add-button container properties */
+.add-button {
+    display: flex;
+    /* Set display property to flex */
+    align-items: center;
+    /* Center items vertically */
+    margin-bottom: 20px;
+    /* Add margin at bottom */
+}
+
+/* Set add-button button properties */
+.add-button button {
+    background-color: #4CAF50;
+    /* Set background color to green */
+    color: white;
+    /* Set text color to white */
+    font-size: 16px;
+    /* Set font size */
+    padding: 10px 20px;
+    /* Add padding */
+    border: none;
+    /* Remove border */
+    border-radius: 4px;
+    /* Add rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    margin-right: 10px;
+    /* Add margin at right */
+}

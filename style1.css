@@ -1,0 +1,159 @@
+/* body {
+  max-width: 1800px;
+  margin: 0 auto;
+} */
+
+/* Set background color and font for the whole page */
+body {
+  display: block;
+  background-color: #cfcdcd;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for the title row */
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  /* add box shadow to the title row */
+}
+
+/* Style for the "Tasks" text in the title row */
+.task-text {
+  color: black;
+  margin-left: 210px;
+  /* move the "Tasks" text to the right */
+}
+
+/* Style for the "List" text in the title row */
+.list-text {
+  color: #007bff;
+  margin-right: 250px;
+  /* move the "List" text to the left */
+}
+
+/* Styles for the add button */
+.add-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* align the button to the right */
+  padding-top: 10px;
+  margin-right: 260px;
+  /* add margin to the right to space it out from the "List" text */
+}
+
+.add-button button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.add-button button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the cards container */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* allow the cards to wrap to a new line if there are too many */
+  margin-right: 100px;
+  /* add margin to the right to space it out from the edge of the page */
+  margin-left: 240px;
+  /* add margin to the left to space it out from the "Tasks" text */
+  margin-top: 10px;
+  gap: 20px;
+  /* add some space between the cards */
+}
+
+/* Styles for the individual cards */
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+  /* add more margin at the bottom to space out the cards */
+  padding: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  color: #007bff;
+  text-align: center
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.checkbox {
+  margin-top: 10px;
+  color: gainsboro;
+  margin-top: 5px;
+  margin-left: -90px;
+  /* text-decoration: line-through; */
+}
+
+/* Styling for checked boxes */
+.checkbox1{
+  margin-left: -80px;
+  text-decoration: line-through;
+}
+
+.checkbox2{
+  margin-left: -80px;
+  text-decoration: line-through;
+}
+
+.checkbox3{
+  margin-left: -80px;
+  text-decoration: line-through;
+}
+
+.checkbox4{
+  margin-left: -80px;
+  text-decoration: line-through;
+}
+
+.checkbox5{
+  margin-left: -60px;
+  text-decoration: line-through;
+}
+
+/* styling for unchecked checkboxes */
+.box-1{
+  margin-left: -134px;
+  }
+  
+  .box-2{
+  margin-left: -90px;
+  }
+
+  .box-3{
+    margin-left: -55px;
+  }
+  
+  .box-4{
+  margin-left: -85px;
+  }
+  
+  .box-5{
+    margin-left: -130px;
+    
+  }
+  

@@ -1,0 +1,133 @@
+body {
+  background-color: #cfcdcd;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  /* add box shadow to the title row */
+}
+
+/* Style for the "Tasks" text in the title row */
+.task-text {
+  color: black;
+  margin-left: 200px;
+  /* move the "Tasks" text to the right */
+}
+
+/* Style for the "List" text in the title row */
+.list-text {
+  color: #007bff;
+  margin-right: 250px;
+  /* move the "List" text to the left */
+}
+
+/* styles for back button */
+
+.back-button
+{
+  display: block;
+  background-color: #424242;
+  padding: 13px;
+  border-radius: 50%;
+  color: white;
+  margin-right: 220px;
+}
+
+.button-bar
+{
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.back-button:active
+{
+  display: block;
+  background-color: white;
+  padding: 13px;
+  border-radius: 50%;
+  color: #424242;
+}
+
+/* Styles for the add button */
+.add-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* add margin to the right to space it out from the "List" text */
+}
+
+.add-button button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.child-container {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.child-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card_heading {
+  color: #007bff;
+  text-align: center;
+}
+
+.checkbox {
+  font-size: larger;
+  display: block;
+
+}
+
+.checkbox1 {
+  margin-top: 20px;
+  text-decoration: line-through;
+}
+
+.checkbox2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text1 {
+  margin-left: 10px;
+}
+
+.text2 {
+  margin-left: 10px;
+}
